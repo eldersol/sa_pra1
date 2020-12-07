@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "sa-practica1"
+  "defaultProject": "sa-practica1",
+  "cli": {
+    "analytics": "08da2d93-7a2b-47c2-9c01-d460aa84b483"
+  }
 }
