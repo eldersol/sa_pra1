@@ -11,4 +11,7 @@ node {
         bat 'npm run test:ci'
     }
 	
+    stage('Build'){
+        bat 'ng build'
+    }
 }
