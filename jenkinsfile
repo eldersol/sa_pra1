@@ -12,7 +12,10 @@ node {
     }
 	
     stage('Build'){
-        "build": "ng build",
-        bat 'npm run build'
+        echo 'ng build'
+    }
+    
+    stage('Deploy'){
+        echo 'ng deploy'
     }
 }
