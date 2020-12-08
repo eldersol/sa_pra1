@@ -12,6 +12,7 @@ node {
     }
 	
     stage('Build'){
-        bat 'ng build'
+        "build": "ng build --prod",
+        bat 'npm run build'
     }
 }
