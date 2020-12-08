@@ -10,6 +10,5 @@ node {
 	stage('Test'){
         bat 'npm run test:ci'
     }
-
 	
 }
